@@ -1,0 +1,93 @@
+header {
+    min-height: 70px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #BEC5C7;
+}
+
+.searchField{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 400px;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.searchField input{
+    border: 1.5px solid black;
+    border-radius: 10px 0 0 10px;
+    border-right: none;
+    height: 23px;
+    padding-left: 8px;
+    width: 90%;
+    outline: none;
+    font-size: 17px;
+    padding-bottom: 2px;
+}
+
+.searchField button{
+    border: 1.5px solid black;
+    border-radius: 0 10px 10px 0;
+    border-left: none;
+    height: 23px;
+    padding-right: 5px;
+    width: 10%;
+}
+
+header .logo {
+    flex: 0.7;
+}
+
+header .logo a {
+    font-size: 40px;
+}
+
+header .logo a:hover {
+    color: rgba(243, 158, 0, 0.87);
+}
+
+header a {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+header ul li {
+    display: inline-block;
+    opacity: 0.7;
+    padding: 0 20px;
+}
+
+header ul li a {
+    font-size: 20px;
+}
+
+header ul li:hover {
+    opacity: 1;
+}
+
+.menu {
+    display: none;
+}
+
+.cart-icon {
+    position: relative;
+    margin: 5px 15px 0px 0px;
+}
+
+.cart-icon span {
+    position: absolute;
+    background: crimson;
+    color: white;
+    border-radius: 20px;
+    top: -10px;
+    right: -10px;
+    padding: 5px 7px;
+    font-size: 10px;
+}

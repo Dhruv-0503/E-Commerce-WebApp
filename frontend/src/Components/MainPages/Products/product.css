@@ -1,0 +1,65 @@
+.products {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-items: center;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.slider-container {
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px rgb(122, 122, 122);
+}
+
+.slick-slide {
+    display: flex !important;
+    justify-content: center;
+}
+
+.slick-slide img {
+    width: 667px;
+    height: 249px;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 2px 3px 10px rgb(122, 122, 122);
+}
+
+.slick-next,
+.slick-prev {
+   display: none;
+}
+
+.slick-dots li button:before {
+    color: rgb(34, 34, 34);
+}
+
+.slick-dots li.slick-active button:before {
+    color: #ff6f61;
+}
+
+@media (max-width: 1024px) {
+    .slider-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider-container {
+        width: 95%;
+    }
+}
+
+@media (max-width: 480px) {
+    .slider-container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@import url("../utils/ProductList/productList.css");

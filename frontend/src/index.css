@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: #195571;
+}
+
+.App{
+    max-width: 1130px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-bottom: 2px;
+    box-shadow: 2px 2px 50px #eeeeee62;
+    z-index: -200;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+button{
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@import url("./Components/Headers/header.css");
+
+@import url("./Components/MainPages/Products/product.css");
+
+@import url("./Components/MainPages/utils/DetailProduct/detailproduct.css");
+
+@import url("./Components/Footers/footer.css");
+
+@import url("./Components/MainPages/Login/loginpage.css");
